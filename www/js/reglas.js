@@ -1,6 +1,5 @@
 $(function() { 
  
-    alert("QE");
-    $('#reglasimg').load('http://www.muchodeporte.com/');
+    $('#reglasimg').load('http://ligapadel.asociacionparqueflores.es/appliga/bases.html');
 
 }); 

@@ -10,6 +10,13 @@
    See https://github.com/apache/cordova-plugin-statusbar
 */
 
+@font-face {
+
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.woff2");
+}
+
+
 .statusbar-overlay {
     background: #000000;
 }

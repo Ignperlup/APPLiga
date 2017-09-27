@@ -4,21 +4,7 @@
   src: url("../fonts/Roboto-Bold.woff2");
 }
 
-a:hover { 
-    background-color: yellow;
-}
 
-a:link { 
-    background-color: blue;
-}
-
-a:active { 
-    background-color: red;
-}
-
-a:visited { 
-    background-color: green;
-}
 button#load{
     padding: 0 3em;
     outline: none;

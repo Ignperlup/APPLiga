@@ -16,8 +16,15 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     
-    <icon src="img/iconologo.jpg" platform="android" width="180" height="180" />
-    <splash src="img/splash.jpg" platform="android" width="320" height="480" />
+
+     <platform name="android">
+
+    <icon src="img/iconologo.jpg" width="180" height="180" />
+    <splash src="img/splash.jpg" width="320" height="480" />
+
+    </platform>
+
+
     <platform name="android">
         <preference name="android-minSdkVersion" value="14" />
         <allow-intent href="market:*" />

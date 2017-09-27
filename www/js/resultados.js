@@ -1,6 +1,6 @@
 $(function() { 
  
-    $.ajax({url:'https://pruebasphone.000webhostapp.com/resultados.php', 
+    $.ajax({url:'http://ligapadel.asociacionparqueflores.es/appliga/resultados.php', 
             type:'POST',  
             dataType:'json', 
             error:function(jqXHR,text_status,strError){alert("Ha ocurrido un error en la conexión");}, 

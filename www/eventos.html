@@ -11,7 +11,6 @@
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
 
-
     <!-- Required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
@@ -37,7 +36,7 @@
 
 
 <script charset="utf-8" type="text/javascript" src="js/jquery.js"></script>
-<script charset="utf-8" type="text/javascript" src="js/reglas.js"></script>
+<script charset="utf-8" type="text/javascript" src="js/eventos.js"></script>
 
 
 
@@ -167,7 +166,7 @@ padding-top: 5px;
             <a class="close-panel external" href="rankingapp.html"><div class="menubotones"><i class="fa fa-line-chart fa-fw iconosmenu"></i>Ranking App </div></a>
             <a class="close-panel external" href="eventos.html"><div class="menubotones menubotones-select"><i class="fa fa-trophy fa-fw iconosmenu"></i>Eventos </div></a>
              <a class="close-panel external" href="http://www.as.com"><div class="menubotones"><i class="fa fa-photo fa-fw iconosmenu"></i>Fotos </div></a>
-            <a class="close-panel external" href="reglas.html"><div class="menubotones menubotones-select"><i class="fa fa-book fa-fw iconosmenu"></i>Reglamento </div></a>
+            <a class="close-panel external" href="reglas.html"><div class="menubotones"><i class="fa fa-book fa-fw iconosmenu"></i>Reglamento </div></a>
 
 
             
@@ -207,7 +206,16 @@ padding-top: 5px;
                         <div id="faseactual" class="tab active"  style="background-color: white">
                           <div class="content-block" onchange="loaded()">
 
-                                <div id="reglasimg"></div>
+                            <div id="wrapper">
+                                <div id="scroller">
+
+                            <div id="eventosimg">
+                            
+                            </div>
+
+
+                            </div>
+                            </div>
 
                           </div>
                         </div>

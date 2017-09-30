@@ -18,15 +18,7 @@
     
 
    
-
-     <platform name="android">
-
-
-
-
-
-
-    </platform>
+    <icon src="icon.png" />
 
 
     <platform name="android">
@@ -48,7 +40,7 @@
         <splash density="port-xxxhdpi" src="img\drawable-xxxhdpi\screen.png" />
 
 
-        
+
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

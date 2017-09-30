@@ -14,6 +14,8 @@ var mainView = myApp.addView('.view-main', {
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function() {
     console.log("Device is ready!");
+    window.plugins.PushbotsPlugin.initialize("59cfe60d9b823a1c788b4567", {"android":{"sender_id":"857869213242"}});
+    alert("A VER AHOORA");
 });
 
 

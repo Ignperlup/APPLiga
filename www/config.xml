@@ -17,10 +17,15 @@
     <allow-intent href="geo:*" />
     
 
+    <icon src="img/iconologo.png"/>
+    <splash platform="android" src="img/splash.png"/>
+
      <platform name="android">
 
-    <icon src="img/iconologo.jpg" width="180" height="180" />
-    <splash src="img/splash.jpg" width="320" height="480" />
+
+        <icon density="hdpi" src="img/iconologo.png" />
+        <splash density="land-hdpi" src="img/splash.png" />
+        <splash density="port-hdpi" src="img/splash.png" />
 
     </platform>
 

@@ -17,11 +17,21 @@
     <allow-intent href="geo:*" />
     
 
-    <splash platform="android" src="img/splash.png"/>
+   
 
      <platform name="android">
 
 
+
+
+
+
+    </platform>
+
+
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="14" />
+        <allow-intent href="market:*" />
 
           <icon src="img\mipmap-mdpi\ic_launcher.png" density="mdpi" />
           <icon src="img\mipmap-hdpi\ic_launcher.png" density="hdpi" />
@@ -38,12 +48,7 @@
         <splash density="port-xxxhdpi" src="img\drawable-xxxhdpi\screen.png" />
 
 
-    </platform>
-
-
-    <platform name="android">
-        <preference name="android-minSdkVersion" value="14" />
-        <allow-intent href="market:*" />
+        
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

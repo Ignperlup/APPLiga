@@ -38,5 +38,6 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="pushbots-cordova-plugin" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
 </widget>

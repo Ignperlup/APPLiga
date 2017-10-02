@@ -31,12 +31,12 @@
         <preference name="android-minSdkVersion" value="14" />
         <allow-intent href="market:*" />
 
-        <splash density="port-ldpi" src="img\drawable-ldpi\screen.png" />
-        <splash density="port-mdpi" src="img\drawable-mdpi\screen.png" />
-        <splash density="port-hdpi" src="img\drawable-hdpi\screen.png" />
-        <splash density="port-xhdpi" src="img\drawable-xhdpi\screen.png" />
-        <splash density="port-xxhdpi" src="img\drawable-xxhdpi\screen.png" />
-        <splash density="port-xxxhdpi" src="img\drawable-xxxhdpi\screen.png" />
+        <splash density="port-ldpi" src="img/drawable-ldpi/screen.png" />
+        <splash density="port-mdpi" src="img/drawable-mdpi/screen.png" />
+        <splash density="port-hdpi" src="img/drawable-hdpi/screen.png" />
+        <splash density="port-xhdpi" src="img/drawable-xhdpi/screen.png" />
+        <splash density="port-xxhdpi" src="img/drawable-xxhdpi/screen.png" />
+        <splash density="port-xxxhdpi" src="img/drawable-xxxhdpi/screen.png" />
 
     </platform>
    

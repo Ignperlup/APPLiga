@@ -26,17 +26,18 @@
     <icon src="res/icon/android/icon-96-xxhdpi.png"  platform="android"    qualifier="xxhdpi" />
     <icon src="res/icon/android/icon-96-xxxhdpi.png"  platform="android"    qualifier="xxxhdpi" />
 
+    <splash src="res/screen/android/splash-port-hdpi.png" platform="android" density="port-hdpi"/>
+    <splash src="res/screen/android/splash-port-ldpi.png" platform="android" density="port-ldpi"/>
+    <splash src="res/screen/android/splash-port-mdpi.png" platform="android" density="port-mdpi"/>
+    <splash src="res/screen/android/splash-port-xhdpi.png" platform="android" density="port-xhdpi"/>
+
+
 
 
 
 
     <platform name="android">
      
-        <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
-        <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
-        <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
-        <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
-
     </platform>
    
     <platform name="ios">

@@ -30,6 +30,8 @@
     <splash src="res/screen/android/splash-port-ldpi.png" platform="android" density="port-ldpi"/>
     <splash src="res/screen/android/splash-port-mdpi.png" platform="android" density="port-mdpi"/>
     <splash src="res/screen/android/splash-port-xhdpi.png" platform="android" density="port-xhdpi"/>
+    <splash src="res/screen/android/splash-port-xxhdpi.png" platform="android" density="port-xxhdpi"/>
+    <splash src="res/screen/android/splash-port-xxxhdpi.png" platform="android" density="port-xxxhdpi"/>
 
 
 

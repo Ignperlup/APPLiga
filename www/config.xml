@@ -47,7 +47,7 @@
         <preference name="BackupWebStorage" value="none" />
     </platform>
    
-    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false"/>
     <preference name="SplashScreen" value="splash" /> 
     <preference name="auto-hide-splash-screen" value="false" />
     <preference name="DisallowOverscroll" value="true" />
